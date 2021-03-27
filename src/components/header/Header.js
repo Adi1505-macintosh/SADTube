@@ -18,7 +18,7 @@ const Header = ({handleToggleSidebar}) => {
 
       history.push(`/search/${input}`)
    }
-   const {photoURL} = useSelector(state => state.auth?.user)
+   const user = useSelector(state => state.auth?.user)
 
 
     return (
@@ -51,7 +51,7 @@ const Header = ({handleToggleSidebar}) => {
             <MdNotifications size={28} />
             <MdApps size={28} />
             <img
-               src={photoURL}
+               src={user?.photoURL}
                alt="avatar"
             />
          </dic>
