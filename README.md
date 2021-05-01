@@ -16,8 +16,8 @@ The App has following pages:
 5: Subscribed Channel Page: A page showing all the channels a user has subscibed it.
 
 
-! [Imgur](https://i.imgur.com/7gJPRyK.jpg)
-! [Imgur](https://i.imgur.com/twu2MNb.jpg)
+ [HomePage](https://i.imgur.com/7gJPRyK.jpg)
+ [WatchScreen](https://i.imgur.com/twu2MNb.jpg)
 
 # Getting Started with Create React App
 
