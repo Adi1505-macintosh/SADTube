@@ -1,3 +1,24 @@
+# YouTube Clone
+
+## Language Used
+We have used React, Rredux along with some CSS for this entire YouTube-Clone project. 
+
+## API Used
+YouTube Data API was used for authnticating google accounts
+
+## App Design
+The YouTube-Clone app has a design similar to YouTube website. 
+The App has following pages:
+1: Authentication Page: The user is authenticated using the YouTube Data API that authenticates google account
+2: Homepage: The Homepage has all the trending videos in user's current location. The Homepage also has tags to user's most frequent searches. A searchbar allows users to search for their favourite videos and channels
+3: Channel Page: A YouTuber's channel page has all the YouTuber's videos listed allow with the Subscrib button
+4: Watch Screen: The Watch Screen has the YouTube video the user wants to watch and the related videos listed on the right. The Video also has related description, like-dislike count and comments listed below the video
+5: Subscribed Channel Page: A page showing all the channels a user has subscibed it.
+
+
+! [Imgur](https://i.imgur.com/7gJPRyK.jpg)
+! [Imgur](https://i.imgur.com/twu2MNb.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
