@@ -28,9 +28,7 @@ const Header = ({ handleToggleSidebar }) => {
       />
 
       <img
-        src="http://pngimg.com/uploads/youtube/youtube_PNG2.png"
-        alt=""
-        className="header__logo"
+       <img src={logo} alt="" className="header__logo" />
       />
       <form onSubmit={handleSubmit}>
         <input
