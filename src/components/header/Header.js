@@ -27,9 +27,9 @@ const Header = ({ handleToggleSidebar }) => {
         onClick={() => handleToggleSidebar()}
       />
 
-      <img
+     
        <img src={logo} alt="" className="header__logo" />
-      />
+
       <form onSubmit={handleSubmit}>
         <input
           type="text"
