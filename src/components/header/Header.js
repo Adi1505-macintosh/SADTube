@@ -28,7 +28,7 @@ const Header = ({ handleToggleSidebar }) => {
       />
 
      
-       <img src={logo} alt="" className="header__logo" />
+       <img src={logo} alt="" className="header__logo" width="200" height="200" />
 
       <form onSubmit={handleSubmit}>
         <input
