@@ -1,91 +1,56 @@
 # YouTube Clone
+This project is a frontend clone of Youtube. 
+This project is made for the final submission of the OSC Project.
 
 ## Language Used
-We have used React, Rredux along with some CSS for this entire YouTube-Clone project. 
+We have used React, Redux, and Firebase along with some SCSS for this entire YouTube-Clone project. 
 
 ## API Used
-YouTube Data API was used for authnticating google accounts
+YouTube Data API was used for fetching the data from Youtube and also from the user accounts.
 
 ## App Design
-The YouTube-Clone app has a design similar to YouTube website. 
-The App has following pages:
+The YouTube-Clone app has a design similar to the YouTube website. 
+The App has the following pages:
 1. Authentication Page: The user is authenticated using the YouTube Data API that authenticates google account
-2. Homepage: The Homepage has all the trending videos in user's current location. The Homepage also has tags to user's most frequent searches. A searchbar allows users to search for their favourite videos and channels
-3. Channel Page: A YouTuber's channel page has all the YouTuber's videos listed allow with the Subscrib button
-4. Watch Screen: The Watch Screen has the YouTube video the user wants to watch and the related videos listed on the right. The Video also has related description, like-dislike count and comments listed below the video
-5. Subscribed Channel Page: A page showing all the channels a user has subscibed it.
+   ![Authenticaion Page](https://github.com/sagarmude7/Youtube-Clone/blob/main/src/sample%20images/authentication.JPG)
+3. Homepage: The Homepage has all the trending videos in the user's current location. The Homepage also has tags for user's most frequent searches. A search bar allows users to search for their favorite videos and channels.
+   ![Home Page](https://github.com/sagarmude7/Youtube-Clone/blob/main/src/sample%20images/home.JPG)
+5. Channel Page: A YouTuber's channel page has all the YouTuber's videos listed allow with the Subscribe button.
+   ![Channel Page](https://github.com/sagarmude7/Youtube-Clone/blob/main/src/sample%20images/channel.JPG)
+7. Watch Screen: The Watch Screen has the YouTube video the user wants to watch and the related videos listed on the right. The Video also has a related description, like-dislike count, and comments listed below the video.
+   ![Watch Screen Page](https://github.com/sagarmude7/Youtube-Clone/blob/main/src/sample%20images/watch%20screen.JPG)
+9. Subscribed Channel Page: A page showing all the channels a user has subscribed to.
+   ![Subscribed Channel Page](https://github.com/sagarmude7/Youtube-Clone/blob/main/src/sample%20images/subscribed.JPG)
+
+## Installation
+
+To run this project on the local environment
+
+Step 1- Clone the project
+```bash
+git clone https://github.com/sagarmude7/Youtube-Clone
+```
+Step 2-Install the dependencies
+```bash
+npm install
+```
+Step 3- Run-on local environment
+```bash
+npm start
+```
 
 
- [HomePage](https://i.imgur.com/7gJPRyK.jpg)
- [WatchScreen](https://i.imgur.com/twu2MNb.jpg)
+## Result And Demo
+You can view the complete website here [Youtube-Clone](https://osc-project-sadtube.web.app) if this not work checkout this [Youtube-Clone](https://sadtube-6324f.web.app/)
 
-# Getting Started with Create React App
+## Contributors
+* [Sagar Mude](https://github.com/sagarmude7)
+* [Aditya Darekar](https://github.com/Adi1505-macintosh)
+* [Donovan Crasta](https://github.com/Donovan-Crasta)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## License
+[MIT](https://github.com/sagarmude7/Youtube-Clone/blob/main/LICENSE)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
