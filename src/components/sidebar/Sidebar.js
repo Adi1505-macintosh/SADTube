@@ -37,6 +37,14 @@ const Sidebar = ({ sidebar, handleToggleSidebar }) => {
           <span>Subscriptions</span>
         </li>
       </Link>
+<li>
+        <MdThumbUp size={23} />
+        <span>Liked Videos</span>
+      </li>
+      <li>
+        <MdHistory size={23} />
+        <span>History</span>
+      </li>
 
 
       <hr />
